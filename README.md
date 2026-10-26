@@ -13,17 +13,26 @@ Tujuan dari analisis ini adalah untuk memahami fitur audio (*audio features*) ap
 ## 📊 Key Findings & Insights
 
 ### 1. Genre Paling Populer
+![Top Genre](charts/01_top_genre.png)
 Genre seperti **Pop, Dance/EDM, Reggaeton, dan K-Pop** mendominasi tingkat popularitas rata-rata tertinggi.
 > **Reason:** Genre ini memiliki *replay value* tinggi, struktur melodi mainstream, serta dukungan kurasi *editorial playlist* Spotify global (seperti *Today's Top Hits*).
 
 ### 2. Fitur Audio vs Popularity (Korelasi)
+![Correlation Heatmap](charts/02_correlation.png)
 Korelasi antara fitur audio individual (*danceability, energy, valence*, dll.) terhadap `popularity` cenderung **lemah** ($|r| < 0.2$).
 > **Insight:** Popularitas suatu lagu tidak hanya ditentukan oleh satu karakteristik musik saja, melainkan gabungan dari kombinasi audio, reputasi artis, strategi pemasaran, dan tren media sosial (TikTok/Reels).
 
 ### 3. Karakteristik Lagu Hit vs Non-hit
+![Hit vs Non-hit](charts/03_hit_vs_nonhit.png)
 - **Danceability:** Lagu *hit* (`popularity >= 70`) memiliki tingkat *danceability* lebih tinggi dibanding lagu non-hit.
 - **Energy & Loudness:** Lagu *hit* cenderung diproduksi dengan *loudness* yang optimal dan energi yang relatif dinamis untuk menarik perhatian pendengar dalam beberapa detik pertama.
 - **Acousticness:** Lagu *hit* memiliki nilai *acousticness* yang jauh lebih rendah (didominasi produksi musik modern/elektronik).
+
+#### 4. Distribusi Popularitas Konten Explicit vs Non-Explicit
+![Explicit Boxplot](charts/04_explicit.png)
+
+#### 5. Pengaruh Durasi Lagu Terhadap Popularitas
+![Durasi Lagu](charts/05_durasi.png)
 
 ## 💡 Recommendations for A&R / Music Producers
 1. **Target Durasi Ideal:** Buat lagu dengan durasi optimal **2.5 – 3.5 menit** untuk memaksimalkan *stream count* dan sesuai dengan tren perilaku pendengar modern.
