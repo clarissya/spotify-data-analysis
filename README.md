@@ -1,5 +1,9 @@
 # 🎵 Spotify Tracks Data Analysis & Insights
 
+## 🖥️ Interactive Dashboard (Looker Studio)
+
+🔗 **[Klik di sini untuk mencoba Dashboard Interaktif versi Live](https://datastudio.google.com/reporting/4de9fa30-c184-4a5b-ba6d-46254152a3f8)**
+
 Proyek analisis data sederhana untuk mengidentifikasi karakteristik lagu populer di Spotify menggunakan Python.
 
 ## 📌 Business Overview & Objective
